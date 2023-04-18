@@ -118,6 +118,8 @@ USE_I18N = True
 
 USE_TZ = True
 
+#i changed the defualt user model, so i can add my own fields in the user form
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
